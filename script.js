@@ -74,3 +74,34 @@ let person2 = {
   
   // Log the updated object
   console.log(person2);
+
+
+  // Problem 3: Array of Objects
+// Create an array of 3 book objects. Each book should have:
+// • title • author • pages
+// Loop through the array and print each book like:
+// "The Hobbit by J.R.R. Tolkien - 310 pages"
+
+// Create an array of book objects
+const books = [
+    {
+      title: "The Hobbit",
+      author: "J.R.R. Tolkien",
+      pages: 310
+    },
+    {
+      title: "1984",
+      author: "George Orwell",
+      pages: 328
+    },
+    {
+      title: "To Kill a Mockingbird",
+      author: "Harper Lee",
+      pages: 281
+    }
+  ];
+  
+  // Loop through the array and print each book's details
+  books.forEach(book => {
+    console.log(`${book.title} by ${book.author} - ${book.pages} pages`);
+  });
