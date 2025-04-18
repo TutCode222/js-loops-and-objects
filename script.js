@@ -134,11 +134,11 @@ function describePerson(obj) {
   }
   
   // Example:
-  const person = {
+  const person3 = {
     name: "Jane",
     age: 25,
     hobby: "painting"
   };
   
-  console.log(describePerson(person));
+  console.log(describePerson(person3));
   // Output: "Jane is 25 years old and loves painting."
