@@ -105,3 +105,22 @@ const books = [
   books.forEach(book => {
     console.log(`${book.title} by ${book.author} - ${book.pages} pages`);
   });
+
+
+  // Problem 4: Favorite Book Finder
+// Inside your array of books, add a property isFavorite: true to one of them.
+// Use a for loop to find and print only the favorite book.
+
+// Array of book objects
+let books2 = [
+    { title: "The Hobbit", author: "J.R.R. Tolkien", isFavorite: false },
+    { title: "1984", author: "George Orwell", isFavorite: true },
+    { title: "To Kill a Mockingbird", author: "Harper Lee", isFavorite: false }
+  ];
+  
+  // For loop to find and print the favorite book
+  for (let i = 0; i < books.length; i++) {
+    if (books2[i].isFavorite) {
+      console.log("My favorite book is: " + books2[i].title + " by " + books2[i].author);
+    }
+  }
