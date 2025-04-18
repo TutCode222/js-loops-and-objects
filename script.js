@@ -42,7 +42,7 @@ for (let i = colors.length - 1; i >= 0; i--) {
 
 // PART #2
 
-// Problem 1: Simple Object
+// Problem 5: Simple Object
 // Create an object named person with properties:
 // • name • age • favoriteColor
 // Log a message using all three values.
@@ -59,7 +59,7 @@ const person = {
   console.log(`My name is ${person.name}. I'm ${person.age} and my favorite color is ${person.favoriteColor}.`);
 
 
-  // Problem 2: Modify an Object
+  // Problem 6: Modify an Object
 // Add a new property hobby to the person object using dot notation.
 // Log the updated object.
 
@@ -76,7 +76,7 @@ let person2 = {
   console.log(person2);
 
 
-  // Problem 3: Array of Objects
+  // Problem 7: Array of Objects
 // Create an array of 3 book objects. Each book should have:
 // • title • author • pages
 // Loop through the array and print each book like:
@@ -107,7 +107,7 @@ const books = [
   });
 
 
-  // Problem 4: Favorite Book Finder
+  // Problem 8: Favorite Book Finder
 // Inside your array of books, add a property isFavorite: true to one of them.
 // Use a for loop to find and print only the favorite book.
 
