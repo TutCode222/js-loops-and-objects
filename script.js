@@ -26,3 +26,15 @@ let animals = ["dog", "cat", "rabbit", "parrot"];
 for (let i = 0; i < animals.length; i++) {
   console.log("I like " + animals[i] + "s.");
 }
+
+
+// Problem 4: Reverse Array Output
+// let colors = ["red", "green", "blue", "yellow"];
+// Use a for loop to print the array in reverse order.
+
+let colors = ["red", "green", "blue", "yellow"];
+
+// Loop from the last index to the first
+for (let i = colors.length - 1; i >= 0; i--) {
+  console.log(colors[i]);
+}
