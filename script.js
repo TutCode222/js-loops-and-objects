@@ -124,3 +124,21 @@ let books2 = [
       console.log("My favorite book is: " + books2[i].title + " by " + books2[i].author);
     }
   }
+
+
+  //BONUS: Create a function called describePerson(obj) that takes an object with name, age, and hobby, and returns a sentence like:
+//"Jane is 25 years old and loves painting."
+
+function describePerson(obj) {
+    return `${obj.name} is ${obj.age} years old and loves ${obj.hobby}.`;
+  }
+  
+  // Example:
+  const person = {
+    name: "Jane",
+    age: 25,
+    hobby: "painting"
+  };
+  
+  console.log(describePerson(person));
+  // Output: "Jane is 25 years old and loves painting."
