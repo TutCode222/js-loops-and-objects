@@ -38,3 +38,22 @@ let colors = ["red", "green", "blue", "yellow"];
 for (let i = colors.length - 1; i >= 0; i--) {
   console.log(colors[i]);
 }
+
+
+// PART #2
+
+// Problem 1: Simple Object
+// Create an object named person with properties:
+// • name • age • favoriteColor
+// Log a message using all three values.
+// Example: "My name is Maya. I'm 30 and my favorite color is purple."
+
+// Create an object named person
+const person = {
+    name: "Maya",
+    age: 30,
+    favoriteColor: "purple"
+  };
+  
+  // Log a message using all three values
+  console.log(`My name is ${person.name}. I'm ${person.age} and my favorite color is ${person.favoriteColor}.`);
