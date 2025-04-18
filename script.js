@@ -14,3 +14,15 @@ for (let i = 1; i <= 10; i++) {
 for (let i = 2; i <= 20; i += 2) {
     console.log(i);
   }
+
+
+  // Problem 3: Loop through an Array
+// let animals = ["dog", "cat", "rabbit", "parrot"];
+// Loop through the animals array and print each animal with a message like:
+// "I like dogs."
+
+let animals = ["dog", "cat", "rabbit", "parrot"];
+
+for (let i = 0; i < animals.length; i++) {
+  console.log("I like " + animals[i] + "s.");
+}
