@@ -50,10 +50,27 @@ for (let i = colors.length - 1; i >= 0; i--) {
 
 // Create an object named person
 const person = {
-    name: "Maya",
-    age: 30,
-    favoriteColor: "purple"
+    name: "Tuscaney",
+    age: 34,
+    favoriteColor: "black"
   };
   
   // Log a message using all three values
   console.log(`My name is ${person.name}. I'm ${person.age} and my favorite color is ${person.favoriteColor}.`);
+
+
+  // Problem 2: Modify an Object
+// Add a new property hobby to the person object using dot notation.
+// Log the updated object.
+
+// Define the person object
+let person2 = {
+    name: "Devin Jr.",
+    age: 8
+  };
+  
+  // Add a new property 'hobby' using dot notation
+  person2.hobby = "Minecraft";
+  
+  // Log the updated object
+  console.log(person2);
